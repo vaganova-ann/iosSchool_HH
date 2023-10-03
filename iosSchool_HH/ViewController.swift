@@ -13,5 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("hello world")
     }
+
+    func createRedView() -> UIView {
+        let view = UIView()
+        view.backgroundColor = .red
+        return view
+    }
 }
 
