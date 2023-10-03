@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         return view
     }
 
+    func createGreenView() -> UIView {
+        let view = UIView()
+        view.backgroundColor = .green
+        return view
+    }
+
     func createBlueView() -> UIView {
         let view = UIView()
         view.backgroundColor = .blue
