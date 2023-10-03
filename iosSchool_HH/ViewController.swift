@@ -19,5 +19,11 @@ class ViewController: UIViewController {
         view.backgroundColor = .red
         return view
     }
+
+    func createGreenView() -> UIView {
+        let view = UIView()
+        view.backgroundColor = .green
+        return view
+    }
 }
 
