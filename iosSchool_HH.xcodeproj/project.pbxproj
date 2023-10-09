@@ -15,6 +15,7 @@
 		8DFFF1DA2AC8317800AACFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1D82AC8317800AACFA0 /* Main.storyboard */; };
 		8DFFF1DC2AC8317900AACFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1DB2AC8317900AACFA0 /* Assets.xcassets */; };
 		8DFFF1DF2AC8317900AACFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1DD2AC8317900AACFA0 /* LaunchScreen.storyboard */; };
+		DDAC4C572AD3BF6D00D506A9 /* RedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAC4C562AD3BF6D00D506A9 /* RedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8DFFF1DB2AC8317900AACFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFFF1DE2AC8317900AACFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DFFF1E02AC8317900AACFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAC4C562AD3BF6D00D506A9 /* RedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			children = (
 				8D1CAFCC2ACC65DE00C6B07C /* View.swift */,
 				8D1CAFCE2ACC682600C6B07C /* RedView.swift */,
+				DDAC4C562AD3BF6D00D506A9 /* RedView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				8DFFF1DF2AC8317900AACFA0 /* LaunchScreen.storyboard in Resources */,
 				8DFFF1DC2AC8317900AACFA0 /* Assets.xcassets in Resources */,
+				DDAC4C572AD3BF6D00D506A9 /* RedView.xib in Resources */,
 				8DFFF1DA2AC8317800AACFA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
