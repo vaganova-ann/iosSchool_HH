@@ -20,11 +20,19 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label above label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6P-Oh-RT7">
+                    <rect key="frame" x="198.66666666666663" y="194" width="152" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemPinkColor"/>
+            <color key="backgroundColor" systemColor="systemRedColor"/>
             <constraints>
+                <constraint firstItem="P6P-Oh-RT7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6LB-F2-fDG"/>
                 <constraint firstItem="DBx-KQ-35l" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Gy3-2R-dpD"/>
+                <constraint firstItem="DBx-KQ-35l" firstAttribute="top" secondItem="P6P-Oh-RT7" secondAttribute="bottom" constant="15" id="VbN-ss-9vj"/>
                 <constraint firstItem="DBx-KQ-35l" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tSG-aB-YG6"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -32,8 +40,8 @@
         </view>
     </objects>
     <resources>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
