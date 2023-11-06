@@ -117,6 +117,4 @@ class Palette<CustomColor> {
     init(colors: [CustomColor]) {
         self.colors = colors
     }
-
-    
 }

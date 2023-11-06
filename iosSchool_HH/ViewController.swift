@@ -43,4 +43,3 @@ class ViewController: UIViewController {
         let test4 = test1.map { $0?.alpha }
     }
 }
-
