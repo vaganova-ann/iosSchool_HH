@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D1CAFCD2ACC65DE00C6B07C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CAFCC2ACC65DE00C6B07C /* View.swift */; };
-		8D1CAFCF2ACC682600C6B07C /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1CAFCE2ACC682600C6B07C /* RedView.swift */; };
 		8DFFF1D32AC8317800AACFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFFF1D22AC8317800AACFA0 /* AppDelegate.swift */; };
 		8DFFF1D52AC8317800AACFA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFFF1D42AC8317800AACFA0 /* SceneDelegate.swift */; };
 		8DFFF1D72AC8317800AACFA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFFF1D62AC8317800AACFA0 /* ViewController.swift */; };
 		8DFFF1DA2AC8317800AACFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1D82AC8317800AACFA0 /* Main.storyboard */; };
 		8DFFF1DC2AC8317900AACFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1DB2AC8317900AACFA0 /* Assets.xcassets */; };
 		8DFFF1DF2AC8317900AACFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFFF1DD2AC8317900AACFA0 /* LaunchScreen.storyboard */; };
-		DDAC4C572AD3BF6D00D506A9 /* RedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAC4C562AD3BF6D00D506A9 /* RedView.xib */; };
+		DD2AA4AD2AE69BDE0024FCCC /* ColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AA4AC2AE69BDE0024FCCC /* ColorGenerator.swift */; };
+		DD5809CD2AEAA5CC00B27593 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5809CC2AEAA5CC00B27593 /* Assembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D1CAFCC2ACC65DE00C6B07C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		8D1CAFCE2ACC682600C6B07C /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 		8DFFF1CF2AC8317800AACFA0 /* iosSchool_HH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSchool_HH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFFF1D22AC8317800AACFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DFFF1D42AC8317800AACFA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +26,8 @@
 		8DFFF1DB2AC8317900AACFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFFF1DE2AC8317900AACFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DFFF1E02AC8317900AACFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDAC4C562AD3BF6D00D506A9 /* RedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedView.xib; sourceTree = "<group>"; };
+		DD2AA4AC2AE69BDE0024FCCC /* ColorGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGenerator.swift; sourceTree = "<group>"; };
+		DD5809CC2AEAA5CC00B27593 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,16 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D1CAFCB2ACC65C900C6B07C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				8D1CAFCC2ACC65DE00C6B07C /* View.swift */,
-				8D1CAFCE2ACC682600C6B07C /* RedView.swift */,
-				DDAC4C562AD3BF6D00D506A9 /* RedView.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		8DFFF1C62AC8317800AACFA0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +60,7 @@
 		8DFFF1D12AC8317800AACFA0 /* iosSchool_HH */ = {
 			isa = PBXGroup;
 			children = (
-				8D1CAFCB2ACC65C900C6B07C /* Views */,
+				DD2AA4AC2AE69BDE0024FCCC /* ColorGenerator.swift */,
 				8DFFF1D22AC8317800AACFA0 /* AppDelegate.swift */,
 				8DFFF1D42AC8317800AACFA0 /* SceneDelegate.swift */,
 				8DFFF1D62AC8317800AACFA0 /* ViewController.swift */,
@@ -80,6 +68,7 @@
 				8DFFF1DB2AC8317900AACFA0 /* Assets.xcassets */,
 				8DFFF1DD2AC8317900AACFA0 /* LaunchScreen.storyboard */,
 				8DFFF1E02AC8317900AACFA0 /* Info.plist */,
+				DD5809CC2AEAA5CC00B27593 /* Assembly.swift */,
 			);
 			path = iosSchool_HH;
 			sourceTree = "<group>";
@@ -94,6 +83,7 @@
 				8DFFF1CB2AC8317800AACFA0 /* Sources */,
 				8DFFF1CC2AC8317800AACFA0 /* Frameworks */,
 				8DFFF1CD2AC8317800AACFA0 /* Resources */,
+				DD2AA4AE2AE6AB110024FCCC /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -144,21 +134,42 @@
 			files = (
 				8DFFF1DF2AC8317900AACFA0 /* LaunchScreen.storyboard in Resources */,
 				8DFFF1DC2AC8317900AACFA0 /* Assets.xcassets in Resources */,
-				DDAC4C572AD3BF6D00D506A9 /* RedView.xib in Resources */,
 				8DFFF1DA2AC8317800AACFA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DD2AA4AE2AE6AB110024FCCC /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DFFF1CB2AC8317800AACFA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1CAFCD2ACC65DE00C6B07C /* View.swift in Sources */,
 				8DFFF1D72AC8317800AACFA0 /* ViewController.swift in Sources */,
-				8D1CAFCF2ACC682600C6B07C /* RedView.swift in Sources */,
+				DD5809CD2AEAA5CC00B27593 /* Assembly.swift in Sources */,
+				DD2AA4AD2AE69BDE0024FCCC /* ColorGenerator.swift in Sources */,
 				8DFFF1D32AC8317800AACFA0 /* AppDelegate.swift in Sources */,
 				8DFFF1D52AC8317800AACFA0 /* SceneDelegate.swift in Sources */,
 			);
