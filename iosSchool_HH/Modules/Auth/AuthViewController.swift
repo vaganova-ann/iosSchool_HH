@@ -39,6 +39,7 @@ class AuthViewController<View: AuthView>: BaseViewControoler<View> {
 extension AuthViewController: AuthViewDelegate {
 
     func loginButtonDidTap(login: String, password: String) {
+        onOpenLogin?()
         HUD.show(.progress)
         dataProvider.auth(login: login, password: password) { [weak self] token, error in
             DispatchQueue.main.async {
