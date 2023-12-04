@@ -34,6 +34,8 @@
 		DD53E7542B14D4D4004AA847 /* LocationCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53E7532B14D4D4004AA847 /* LocationCellData.swift */; };
 		DD53E7572B14D7CC004AA847 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53E7562B14D7CC004AA847 /* NSObject+ClassName.swift */; };
 		DD5809CD2AEAA5CC00B27593 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5809CC2AEAA5CC00B27593 /* Assembly.swift */; };
+		DD61A5DE2B1E0140005E7F17 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DD61A5DD2B1E0140005E7F17 /* KeychainAccess */; };
+		DD61A5E02B1E018A005E7F17 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A5DF2B1E018A005E7F17 /* StorageManager.swift */; };
 		DD64A57D2B06408D00FCB183 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64A57C2B06408D00FCB183 /* BaseViewController.swift */; };
 		DD64A5802B0642E700FCB183 /* AuthViewImp.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD64A57F2B0642E700FCB183 /* AuthViewImp.xib */; };
 		DD6C5D9C2B02513D005B3150 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C5D9B2B02513D005B3150 /* Location.swift */; };
@@ -91,6 +93,7 @@
 		DD53E7532B14D4D4004AA847 /* LocationCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCellData.swift; sourceTree = "<group>"; };
 		DD53E7562B14D7CC004AA847 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		DD5809CC2AEAA5CC00B27593 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		DD61A5DF2B1E018A005E7F17 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		DD64A57C2B06408D00FCB183 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DD64A57F2B0642E700FCB183 /* AuthViewImp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewImp.xib; sourceTree = "<group>"; };
 		DD6C5D9B2B02513D005B3150 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 			files = (
 				DD92A47B2B0F926B009C73F9 /* SPIndicator in Frameworks */,
 				DD92A47E2B0F9439009C73F9 /* PKHUD in Frameworks */,
+				DD61A5DE2B1E0140005E7F17 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				DDEC2E7F2B18CC6500EC7D2B /* ImageService.swift */,
+				DD61A5DF2B1E018A005E7F17 /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			packageProductDependencies = (
 				DD92A47A2B0F926B009C73F9 /* SPIndicator */,
 				DD92A47D2B0F9439009C73F9 /* PKHUD */,
+				DD61A5DD2B1E0140005E7F17 /* KeychainAccess */,
 			);
 			productName = iosSchool_HH;
 			productReference = 8DFFF1CF2AC8317800AACFA0 /* iosSchool_HH.app */;
@@ -359,6 +365,7 @@
 			packageReferences = (
 				DD92A4792B0F926B009C73F9 /* XCRemoteSwiftPackageReference "SPIndicator" */,
 				DD92A47C2B0F9439009C73F9 /* XCRemoteSwiftPackageReference "PKHUD" */,
+				DD61A5DC2B1E0140005E7F17 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 8DFFF1D02AC8317800AACFA0 /* Products */;
 			projectDirPath = "";
@@ -442,6 +449,7 @@
 				DD53E7542B14D4D4004AA847 /* LocationCellData.swift in Sources */,
 				DD8E5E342AFD146A00C50F92 /* SplashAssembly.swift in Sources */,
 				DDEC2E802B18CC6500EC7D2B /* ImageService.swift in Sources */,
+				DD61A5E02B1E018A005E7F17 /* StorageManager.swift in Sources */,
 				DD6C5D9E2B0259C9005B3150 /* LocationsList.swift in Sources */,
 				DD6C5DA02B025A38005B3150 /* TokenResponse.swift in Sources */,
 				DD53E7572B14D7CC004AA847 /* NSObject+ClassName.swift in Sources */,
@@ -665,6 +673,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DD61A5DC2B1E0140005E7F17 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		DD92A4792B0F926B009C73F9 /* XCRemoteSwiftPackageReference "SPIndicator" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ivanvorobei/SPIndicator";
@@ -684,6 +700,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD61A5DD2B1E0140005E7F17 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD61A5DC2B1E0140005E7F17 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
 		DD92A47A2B0F926B009C73F9 /* SPIndicator */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DD92A4792B0F926B009C73F9 /* XCRemoteSwiftPackageReference "SPIndicator" */;
