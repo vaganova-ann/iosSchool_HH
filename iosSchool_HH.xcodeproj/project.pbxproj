@@ -54,6 +54,11 @@
 		DD92A4782B0F8948009C73F9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92A4772B0F8948009C73F9 /* BaseNavigationController.swift */; };
 		DD92A47B2B0F926B009C73F9 /* SPIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = DD92A47A2B0F926B009C73F9 /* SPIndicator */; };
 		DD92A47E2B0F9439009C73F9 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DD92A47D2B0F9439009C73F9 /* PKHUD */; };
+		DDEC2E7A2B18B01B00EC7D2B /* CharacterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC2E762B18B01B00EC7D2B /* CharacterAssembly.swift */; };
+		DDEC2E7B2B18B01B00EC7D2B /* CharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC2E772B18B01B00EC7D2B /* CharacterCoordinator.swift */; };
+		DDEC2E7C2B18B01B00EC7D2B /* CharacterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC2E782B18B01B00EC7D2B /* CharacterDataProvider.swift */; };
+		DDEC2E7D2B18B01B00EC7D2B /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC2E792B18B01B00EC7D2B /* CharacterViewController.swift */; };
+		DDEC2E802B18CC6500EC7D2B /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC2E7F2B18CC6500EC7D2B /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +109,11 @@
 		DD92A4722B0F883F009C73F9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DD92A4752B0F88A5009C73F9 /* RootTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTab.swift; sourceTree = "<group>"; };
 		DD92A4772B0F8948009C73F9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		DDEC2E762B18B01B00EC7D2B /* CharacterAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterAssembly.swift; sourceTree = "<group>"; };
+		DDEC2E772B18B01B00EC7D2B /* CharacterCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCoordinator.swift; sourceTree = "<group>"; };
+		DDEC2E782B18B01B00EC7D2B /* CharacterDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDataProvider.swift; sourceTree = "<group>"; };
+		DDEC2E792B18B01B00EC7D2B /* CharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		DDEC2E7F2B18CC6500EC7D2B /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,7 @@
 		8DFFF1D12AC8317800AACFA0 /* iosSchool_HH */ = {
 			isa = PBXGroup;
 			children = (
+				DDEC2E7E2B18CC5000EC7D2B /* Services */,
 				DD53E7552B14D790004AA847 /* Extensions */,
 				DD92A4742B0F8891009C73F9 /* UIKit */,
 				DD64A57B2B06406900FCB183 /* Common */,
@@ -159,6 +170,7 @@
 		DD3800902AF9223C00D8B4D3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DDEC2E752B18AFE500EC7D2B /* Characters */,
 				DD53E73B2B14B591004AA847 /* Location */,
 				DD8E5E282AFD128000C50F92 /* Splash */,
 				DD3800912AF9225200D8B4D3 /* Auth */,
@@ -276,6 +288,25 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		DDEC2E752B18AFE500EC7D2B /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC2E762B18B01B00EC7D2B /* CharacterAssembly.swift */,
+				DDEC2E772B18B01B00EC7D2B /* CharacterCoordinator.swift */,
+				DDEC2E782B18B01B00EC7D2B /* CharacterDataProvider.swift */,
+				DDEC2E792B18B01B00EC7D2B /* CharacterViewController.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		DDEC2E7E2B18CC5000EC7D2B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC2E7F2B18CC6500EC7D2B /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -387,6 +418,7 @@
 				DD8E5E322AFD140D00C50F92 /* SplashCoordinator.swift in Sources */,
 				DD64A57D2B06408D00FCB183 /* BaseViewController.swift in Sources */,
 				DD6C5DA32B025AEF005B3150 /* ApiClient.swift in Sources */,
+				DDEC2E7C2B18B01B00EC7D2B /* CharacterDataProvider.swift in Sources */,
 				DD8E5E302AFD137D00C50F92 /* SplashViewController.swift in Sources */,
 				DD92A4782B0F8948009C73F9 /* BaseNavigationController.swift in Sources */,
 				DD92A4762B0F88A5009C73F9 /* RootTab.swift in Sources */,
@@ -409,10 +441,14 @@
 				8DFFF1D32AC8317800AACFA0 /* AppDelegate.swift in Sources */,
 				DD53E7542B14D4D4004AA847 /* LocationCellData.swift in Sources */,
 				DD8E5E342AFD146A00C50F92 /* SplashAssembly.swift in Sources */,
+				DDEC2E802B18CC6500EC7D2B /* ImageService.swift in Sources */,
 				DD6C5D9E2B0259C9005B3150 /* LocationsList.swift in Sources */,
 				DD6C5DA02B025A38005B3150 /* TokenResponse.swift in Sources */,
 				DD53E7572B14D7CC004AA847 /* NSObject+ClassName.swift in Sources */,
+				DDEC2E7A2B18B01B00EC7D2B /* CharacterAssembly.swift in Sources */,
 				8DFFF1D52AC8317800AACFA0 /* SceneDelegate.swift in Sources */,
+				DDEC2E7D2B18B01B00EC7D2B /* CharacterViewController.swift in Sources */,
+				DDEC2E7B2B18B01B00EC7D2B /* CharacterCoordinator.swift in Sources */,
 				DD38008E2AF9193700D8B4D3 /* AppCoordinator.swift in Sources */,
 				DD3800952AF9230A00D8B4D3 /* AuthView.swift in Sources */,
 				DD6C5D9C2B02513D005B3150 /* Location.swift in Sources */,
