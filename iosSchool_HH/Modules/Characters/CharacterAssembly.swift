@@ -8,13 +8,13 @@
 import Foundation
 
 protocol CharacterAssembly {
-    func characterVC(data: LocationCellData) -> CharacterViewController
+    func characterVC(data: LocationCellData) -> CharacterViewController<CharactersViewImp>
     func characterDataProvider() -> CharacterDataProvider
     func characterCoordinator(data: LocationCellData) -> CharacterCoordinator
 }
 
 extension Assembly: CharacterAssembly {
-    func characterVC(data: LocationCellData) -> CharacterViewController {
+    func characterVC(data: LocationCellData) -> CharacterViewController<CharactersViewImp> {
         .init(dataProvider: characterDataProvider(), data: data, imageService: imageService)
     }
 
